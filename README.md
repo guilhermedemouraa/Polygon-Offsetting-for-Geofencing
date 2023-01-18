@@ -53,12 +53,20 @@ offset_polygon = polygon_offset(geofence, offset, direction)
 ## Examples
 - The repository includes example [Excel files](https://github.com/guilhermedemouraa/Polygon-Offsetting-for-Geofencing/tree/main/example) that demonstrate the usage of the python script. Below are a few screenshots from the outputs of the python script:
 
+### Polygon expansion:
 ![python_example_1](https://github.com/guilhermedemouraa/Polygon-Offsetting-for-Geofencing/blob/main/example/figures/python_example_1.png)
 ![python_example_2](https://github.com/guilhermedemouraa/Polygon-Offsetting-for-Geofencing/blob/main/example/figures/python_example_2.png)
 ![python_example_3](https://github.com/guilhermedemouraa/Polygon-Offsetting-for-Geofencing/blob/main/example/figures/python_example_3.png)
 ![python_example_4](https://github.com/guilhermedemouraa/Polygon-Offsetting-for-Geofencing/blob/main/example/figures/python_example_4.png)
 
-- In addition, this repository includes a MATLAB file ([`Polygon_ofsett_demo.m`](https://github.com/guilhermedemouraa/Polygon-Offsetting-for-Geofencing/blob/main/Polygon_offset_demo.m)) that demonstrates the usage of the MATLAB script.
+### Polygon contraction:
+![python_example_5](https://github.com/guilhermedemouraa/Polygon-Offsetting-for-Geofencing/blob/main/example/figures/python_example_5.png)
+![python_example_6](https://github.com/guilhermedemouraa/Polygon-Offsetting-for-Geofencing/blob/main/example/figures/python_example_6.png)
+![python_example_7](https://github.com/guilhermedemouraa/Polygon-Offsetting-for-Geofencing/blob/main/example/figures/python_example_7.png)
+![python_example_8](https://github.com/guilhermedemouraa/Polygon-Offsetting-for-Geofencing/blob/main/example/figures/python_example_8.png)
+
+- In addition, this repository includes a MATLAB file ([`Polygon_ofsett_demo.m`](https://github.com/guilhermedemouraa/Polygon-Offsetting-for-Geofencing/blob/main/Polygon_offset_demo.m)) that demonstrates the usage of the MATLAB script.Below is a screenshot from the output of the MATLAB demo file:
+![matlab_example](https://github.com/guilhermedemouraa/Polygon-Offsetting-for-Geofencing/blob/main/example/figures/matlab_examples.png)
 
 ## References
 [1] https://stackoverflow.com/questions/54033808/how-to-offset-polygon-edges
