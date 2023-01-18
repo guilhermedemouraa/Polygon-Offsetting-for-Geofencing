@@ -53,7 +53,10 @@ offset_polygon = polygon_offset(geofence, offset, direction)
 ## Examples
 - The repository includes example [Excel files](https://github.com/guilhermedemouraa/Polygon-Offsetting-for-Geofencing/tree/main/example) that demonstrate the usage of the python script. Below are a few screenshots from the outputs of the python script:
 
-
+![python_example_1](https://github.com/guilhermedemouraa/Polygon-Offsetting-for-Geofencing/blob/main/example/figures/python_example_1.png)
+![python_example_2](https://github.com/guilhermedemouraa/Polygon-Offsetting-for-Geofencing/blob/main/example/figures/python_example_2.png)
+![python_example_3](https://github.com/guilhermedemouraa/Polygon-Offsetting-for-Geofencing/blob/main/example/figures/python_example_3.png)
+![python_example_4](https://github.com/guilhermedemouraa/Polygon-Offsetting-for-Geofencing/blob/main/example/figures/python_example_4.png)
 
 - In addition, this repository includes a MATLAB file ([`Polygon_ofsett_demo.m`](https://github.com/guilhermedemouraa/Polygon-Offsetting-for-Geofencing/blob/main/Polygon_offset_demo.m)) that demonstrates the usage of the MATLAB script.
 
