@@ -25,6 +25,8 @@ for i = 1:3
         xlim([-10,10]);ylim([-10,10]);
         hold on;
         plot(x_buffer,y_buffer,'b-o');
+        axis padded
+        axis equal
         legend('Original polygon', 'Buffered polygon');
     end
 end
