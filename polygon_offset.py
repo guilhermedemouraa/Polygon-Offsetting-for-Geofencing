@@ -135,10 +135,10 @@ letter = 's' # South
 locations = ['Kemper+Bainer','MLS HQ','Mrak Hall roundabout','Kemper Hall']
 loc = 0
 # Load the coordinates of the locations for which data was collected
-f1 = r'C:\Users\admin-gdemoura\Box\Gui\ATV\4.1 Agroguardian\Results\Geofencing\irregular.csv'
-f2 = r'C:\Users\admin-gdemoura\Box\Gui\ATV\4.1 Agroguardian\Results\Geofencing\bainer.csv'
-f3 = r'C:\Users\admin-gdemoura\Box\Gui\ATV\4.1 Agroguardian\Results\Geofencing\mrak.csv'
-f4 = r'C:\Users\admin-gdemoura\Box\Gui\ATV\4.1 Agroguardian\Results\Geofencing\kemper.csv'
+f1 = r'https://github.com/guilhermedemouraa/Polygon-Offsetting-for-Geofencing/blob/main/example/irregular.csv'
+f2 = r'https://github.com/guilhermedemouraa/Polygon-Offsetting-for-Geofencing/blob/main/example/bainer.csv'
+f3 = r'https://github.com/guilhermedemouraa/Polygon-Offsetting-for-Geofencing/blob/main/example/mrak.csv'
+f4 = r'https://github.com/guilhermedemouraa/Polygon-Offsetting-for-Geofencing/blob/main/example/kemper.csv'
 path = [f1,f2,f3,f4]
 # Loop through the coordinates of all locations to create offset polygons
 for i in path:
