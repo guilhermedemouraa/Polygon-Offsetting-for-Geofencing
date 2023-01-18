@@ -23,31 +23,28 @@ The Python script has the following dependencies:
 ## Usage
 
 ### Python
-`import polygon_offset`
-
-geofence = [[latitude_coordinates],[longitude_coordinates]]
-offset = 10
-direction = 'o'
-zone = 10
-letter = 'N'
-
-offset_polygon = polygon_offset(geofence, offset, direction, zone, letter)
+````
 import polygon_offset
 
 geofence = [[latitude_coordinates],[longitude_coordinates]]
 offset = 10
-direction = 'o'
+direction = 'o' # Outward (expansion)
 zone = 10
 letter = 'N'
 
 offset_polygon = polygon_offset(geofence, offset, direction, zone, letter)
-
+````
 ### Matlab
+````
+geofence = [[latitude_coordinates],[longitude_coordinates]]
+offset = 10
+direction = 'o' # Outward (expansion)
 offset_polygon = polygon_offset(geofence, offset, direction)
+````
 
 ## Limitations
-- script assumes that the input polygon is closed, i.e., the first and last vertex are the same.
-- script assumes that the input polygon is simple, i.e., it does not self-intersect
+- Script assumes that the input polygon is closed, i.e., the first and last vertex are the same.
+- Script assumes that the input polygon is simple, i.e., it does not self-intersect
 - The script only works with 2D polygons.
 
 ## Examples
