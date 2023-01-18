@@ -48,7 +48,7 @@ offset_polygon = polygon_offset(geofence, offset, direction)
 - The script only works with 2D polygons.
 
 ## Examples
-- The repository includes example [Excel files](https://github.com/guilhermedemouraa/Polygon-Offsetting-for-Geofencing/tree/main/example) that demonstrate the usage of the python script. Below are a few screenshots from the outputs of the python script:
+- The repository includes example [excel files](https://github.com/guilhermedemouraa/Polygon-Offsetting-for-Geofencing/tree/main/example) with latitude/longitude coordinates of buildings and a roundabout that can be used to demonstrate the usage of the python script. Below are a few screenshots from the outputs of the python script:
 
 ### Polygon expansion:
 ![python_example_1](https://github.com/guilhermedemouraa/Polygon-Offsetting-for-Geofencing/blob/main/example/figures/python_example_1.png)
